@@ -1,4 +1,3 @@
-local util = require("gemstones.util")
 local M = {}
 
 function M.get_highlights(spec, config)

@@ -1,4 +1,3 @@
-local util = require("gemstones.util")
 local M = {}
 
 local function validate(input)
@@ -59,7 +58,7 @@ end
 --- Legacy highlight commands for NeoVim 0.6 and earlier
 -- @param spec table
 -- @param hls table
-function M.vim_hl(spec, hls)
+function M.vim_hl(hls)
   if vim.g.colors_name then
     vim.cmd("hi clear")
   end
@@ -88,7 +87,7 @@ end
 --- Highlight commands for NeoVim 0.7+
 -- @param spec table
 -- @param hls table
-function M.nvim_hl(spec, hls)
+function M.nvim_hl(hls)
   vim.o.termguicolors = true
   vim.g.colors_name = "gemstones"
   vim.o.background = "dark"

@@ -1,12 +1,14 @@
+<h1 align="center">Gemstones</h1>
+<br />
 <div align="center">
   <img
-    width="196px"
-    height="196px"
+    width="144px"
+    height="144px"
     src="https://raw.githubusercontent.com/j4d3nw/gemstones.nvim/main/media/logo.svg"
     alt="gemstones logo"
   />
 </div>
-
+<br />
 <p align="center">
   <a href="https://github.com/j4d3nw/gemstones.nvim/stargazers"><img src="https://img.shields.io/github/stars/j4d3nw/gemstones.nvim?colorA=1b2125&colorB=73aace&style=for-the-badge"></a>
   <a href="https://github.com/j4d3nw/gemstones.nvim/issues"><img src="https://img.shields.io/github/issues/j4d3nw/gemstones.nvim?colorA=1b2125&colorB=f08789&style=for-the-badge"></a>
@@ -102,9 +104,11 @@ This is an example Gemstones setup with default values
 ```lua
 require("gemstones").setup {
   gem = "emerald",
+  -- values: "emerald" | "amber" | "apatite" | "crystal" | "diamond"| "kunzite" | "ruby" | "sapphire" | "topaz"
   options = {
     transparent = false, -- if true, background is transparent
     terminal_colors = true, -- if true, set terminal colors
+    -- set style: "NONE", "italic", "bold", "underline", "undercurl"
     styles = {
       comments = "NONE",
       functions = "NONE",
@@ -114,11 +118,13 @@ require("gemstones").setup {
       types = "NONE",
       variables = "NONE",
     },
+    -- set invert colors
     inverse = {
       match_paren = false,
       visual = false,
       search = false,
     },
+    -- enable plugin highlightings
     plugins = {
       bufferline = true,
       cmp = true,
