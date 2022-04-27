@@ -5,7 +5,6 @@ local M = {
 M.options = {
   transparent = false,
   terminal_colors = true,
-  dim_inactive = false,
   styles = {
     comments = "NONE",
     functions = "NONE",

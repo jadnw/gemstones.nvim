@@ -2,7 +2,6 @@ local M = {}
 
 function M.get(spec, conf)
   local trans = conf.transparent
-  local alt = conf.dim_inactive
   local inv = conf.inverse
 
   return {

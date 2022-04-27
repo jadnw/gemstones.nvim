@@ -105,7 +105,6 @@ require("gemstones").setup {
   options = {
     transparent = false, -- if true, background is transparent
     terminal_colors = true, -- if true, set terminal colors
-    dim_inactive = false,
     styles = {
       comments = "NONE",
       functions = "NONE",
