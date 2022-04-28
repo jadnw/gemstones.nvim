@@ -13,10 +13,10 @@ function M.get(spec, conf)
     CursorColumn = { link = "CursorLine" }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     CursorLine = { bg = spec.bg2 }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory = { fg = spec.syntax.func }, -- directory names (and other special names in listings)
-    DiffAdd = { fg = spec.bg3, bg = spec.diff.add }, -- diff mode: Added line |diff.txt|
-    DiffChange = { fg = spec.bg3, bg = spec.diff.change }, -- diff mode: Changed line |diff.txt|
-    DiffDelete = { fg = spec.bg3, bg = spec.diff.delete }, -- diff mode: Deleted line |diff.txt|
-    DiffText = { fg = spec.bg3, bg = spec.diff.text }, -- diff mode: Changed text within a changed line |diff.txt|
+    DiffAdd = { fg = spec.diff.add }, -- diff mode: Added line |diff.txt|
+    DiffChange = { fg = spec.diff.change }, -- diff mode: Changed line |diff.txt|
+    DiffDelete = { fg = spec.diff.delete }, -- diff mode: Deleted line |diff.txt|
+    DiffText = { fg = spec.diff.text }, -- diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer = { fg = spec.bg1 }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
     -- TermCursor      = {}, -- cursor in a focused terminal
     -- TermCursorNC    = {}, -- cursor in an unfocused terminal
