@@ -6,8 +6,8 @@ local spec = palette.load_spec(config.gem)
 local function gen_mode(color)
   return {
     a = { bg = color, fg = spec.bg0, gui = "bold" },
-    b = { bg = spec.bg0, fg = spec.fg2 },
-    c = { bg = spec.bg2, fg = spec.fg2 },
+    b = { bg = spec.bg0, fg = spec.pal.accent.base },
+    c = { bg = spec.bg2, fg = spec.fg3 },
   }
 end
 
