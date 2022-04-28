@@ -136,6 +136,7 @@ require("gemstones").setup {
       gitsigns = true,
       illuminate = true,
       lspsaga = true,
+      lsp_signature = true,
       notify = true,
       nvimtree = true,
       telescope = true,
@@ -156,6 +157,7 @@ require("gemstones").setup {
 - [vim-illuminate](https://github.com/RRethy/vim-illuminate)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
+- [lsp_signature.nvim](https://github.com/ray-x/lsp_signature)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
 - [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)

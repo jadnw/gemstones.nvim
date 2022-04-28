@@ -30,6 +30,7 @@ M.options = {
     gitsigns = true,
     illuminate = true,
     lspsaga = true,
+    lsp_signature = true,
     notify = true,
     nvimtree = true,
     telescope = true,
