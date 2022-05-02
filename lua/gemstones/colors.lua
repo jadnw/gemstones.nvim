@@ -88,13 +88,13 @@ function M.gen_spec(accent, pal)
     keyword = pal.purple.base, -- Keywords
     number = pal.orange.bright, -- Numbers
     operator = pal.purple.bright, -- Operators
+    param = pal.magenta.bright, -- Params
     preproc = pal.magenta.base, -- PreProc
     regex = pal.orange.base, -- Regex
     statement = pal.purple.base, -- Statements
     string = pal.green.base, -- Strings
     tag_delimiter = pal.teal.base, -- Tag delimiter
     type = pal.yellow.base, -- Types
-    param = pal.yellow.bright, -- Params
     variable = spec.fg1, -- Variables
   }
 
