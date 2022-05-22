@@ -4,16 +4,16 @@
   <img
     width="144px"
     height="144px"
-    src="https://raw.githubusercontent.com/j4d3nw/gemstones.nvim/main/media/logo.svg"
+    src="https://raw.githubusercontent.com/jadnw/gemstones.nvim/main/media/logo.svg"
     alt="gemstones logo"
   />
 </div>
 <br />
 <p align="center">
-  <a href="https://github.com/j4d3nw/gemstones.nvim/stargazers"><img src="https://img.shields.io/github/stars/j4d3nw/gemstones.nvim?colorA=1b2125&colorB=73aace&style=for-the-badge"></a>
-  <a href="https://github.com/j4d3nw/gemstones.nvim/issues"><img src="https://img.shields.io/github/issues/j4d3nw/gemstones.nvim?colorA=1b2125&colorB=f08789&style=for-the-badge"></a>
-  <a href="https://github.com/j4d3nw/gemstones.nvim/contributors"><img src="https://img.shields.io/github/contributors/j4d3nw/gemstones.nvim?colorA=1b2125&colorB=83c1ae&style=for-the-badge"></a>
-  <a href="https://github.com/j4d3nw/gemstones.nvim/network/members"><img src="https://img.shields.io/github/forks/j4d3nw/gemstones.nvim?colorA=1b2125&colorB=b3a8f9&style=for-the-badge"></a>
+  <a href="https://github.com/jadnw/gemstones.nvim/stargazers"><img src="https://img.shields.io/github/stars/jadnw/gemstones.nvim?colorA=1b2125&colorB=73aace&style=for-the-badge"></a>
+  <a href="https://github.com/jadnw/gemstones.nvim/issues"><img src="https://img.shields.io/github/issues/jadnw/gemstones.nvim?colorA=1b2125&colorB=f08789&style=for-the-badge"></a>
+  <a href="https://github.com/jadnw/gemstones.nvim/contributors"><img src="https://img.shields.io/github/contributors/jadnw/gemstones.nvim?colorA=1b2125&colorB=83c1ae&style=for-the-badge"></a>
+  <a href="https://github.com/jadnw/gemstones.nvim/network/members"><img src="https://img.shields.io/github/forks/jadnw/gemstones.nvim?colorA=1b2125&colorB=b3a8f9&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 
 <div align="center">
   <img 
-    src="https://raw.githubusercontent.com/j4d3nw/gemstones.nvim/main/media/screenshot.png"
+    src="https://raw.githubusercontent.com/jadnw/gemstones.nvim/main/media/screenshot.png"
     alt="Default Screenshot"
   />
 </div>
@@ -49,7 +49,7 @@ Gemstones saves your eyestraints with a dark background and a pastel palette.
 
 <div align="center">
   <img 
-    src="https://raw.githubusercontent.com/j4d3nw/gemstones.nvim/main/media/palette.svg"
+    src="https://raw.githubusercontent.com/jadnw/gemstones.nvim/main/media/palette.svg"
     alt="Gemstones Palette"
   />
 </div>
@@ -77,12 +77,12 @@ You can install Gemstones via your favorite plugin manager:
 
 - Vim-Plug
 ```vim
-Plug "j4d3nw/gemstones.nvim"
+Plug "jadnw/gemstones.nvim"
 ```
 
 - Packer
 ```lua
-use { "j4d3nw/gemstones.nvim" }
+use { "jadnw/gemstones.nvim" }
 ```
 
 For a complete guide, see ```:h gemstones.nvim```
