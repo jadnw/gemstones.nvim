@@ -67,6 +67,7 @@ will change when you change the gem in [setup function](#setup)
 |Crystal            |White          |
 |Diamond            |Cyan           |
 |Kunzite            |Magenta        |
+|Obsidian           |Purple         |
 |Ruby               |Red            |
 |Sapphire           |Blue           |
 |Topaz              |Yellow         |
@@ -104,7 +105,7 @@ This is an example Gemstones setup with default values
 ```lua
 require("gemstones").setup {
   gem = "emerald",
-  -- values: "emerald" | "amber" | "apatite" | "crystal" | "diamond"| "kunzite" | "ruby" | "sapphire" | "topaz"
+  -- values: "emerald" | "amber" | "apatite" | "crystal" | "diamond"| "kunzite" | "obsidian" | "ruby" | "sapphire" | "topaz"
   options = {
     transparent = false, -- if true, background is transparent
     terminal_colors = true, -- if true, set terminal colors
